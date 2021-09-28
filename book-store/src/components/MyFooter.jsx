@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card'
 
 const MyFooter = () => (
-    <Card className="text-center fixed-bottom">
+    <Card className="text-center">
         
         <Card.Body>
             <Card.Text>

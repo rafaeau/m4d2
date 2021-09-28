@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import MyNavbar from './components/MyNavbar'
 import MyFooter from './components/MyFooter'
 import MyJumbotron from './components/MyJumbotron'
+import MyCarousel from './components/MyCarousel'
 
 
 function App() {
@@ -10,8 +11,9 @@ function App() {
   return (
     <div>
       <MyNavbar brand="StriveBooks" />
-      <MyFooter/>
       <MyJumbotron/>
+      <MyCarousel/>
+      <MyFooter/>
     </div>
   )
 }
